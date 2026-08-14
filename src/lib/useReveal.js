@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 
-// Scroll reveal hook — adds 'in' class when element enters viewport.
+// Scroll reveal hook - adds 'in' class when element enters viewport.
 export function useReveal(options = { threshold: 0.15 }) {
   const ref = useRef(null);
   const [shown, setShown] = useState(false);

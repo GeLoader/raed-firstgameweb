@@ -20,7 +20,7 @@ function useSeoSchema(lang) {
     const schema = {
       '@context': 'https://schema.org',
       '@type': 'Service',
-      name: 'Game Development — Aether Forge Studios',
+      name: 'Game Development - Aether Forge Studios',
       provider: { '@type': 'Organization', name: 'Aether Forge Studios' },
       areaServed: ['Saudi Arabia', 'United Arab Emirates', 'Qatar', 'Kuwait', 'Bahrain', 'Oman'],
       serviceType: ['Game Art Outsourcing', 'Unreal Engine Development', 'Unity Development', 'Web3 Gaming'],

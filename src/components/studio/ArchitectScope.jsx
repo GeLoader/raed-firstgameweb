@@ -237,8 +237,8 @@ export default function ArchitectScope() {
             </p>
 
             <div className="space-y-2 text-sm">
-              <Row label={lang === 'ar' ? 'النوع' : 'Genre'} value={genre || '—'} lang={lang} />
-              <Row label={lang === 'ar' ? 'المنصة' : 'Platform'} value={platform || '—'} lang={lang} />
+              <Row label={lang === 'ar' ? 'النوع' : 'Genre'} value={genre || '-'} lang={lang} />
+              <Row label={lang === 'ar' ? 'المنصة' : 'Platform'} value={platform || '-'} lang={lang} />
               <Row label={lang === 'ar' ? 'النطاق' : 'Scope'} value={scope} lang={lang} />
             </div>
           </div>
