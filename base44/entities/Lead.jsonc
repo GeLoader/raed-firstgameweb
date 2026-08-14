@@ -1,0 +1,49 @@
+{
+  "name": "Lead",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string",
+      "format": "email"
+    },
+    "company": {
+      "type": "string"
+    },
+    "genre": {
+      "type": "string"
+    },
+    "platform": {
+      "type": "string"
+    },
+    "scope": {
+      "type": "string"
+    },
+    "budget_min": {
+      "type": "number"
+    },
+    "budget_max": {
+      "type": "number"
+    },
+    "timeline_weeks": {
+      "type": "number"
+    },
+    "requirements": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string",
+      "default": "onboarding"
+    },
+    "language": {
+      "type": "string",
+      "default": "en"
+    }
+  },
+  "required": [
+    "name",
+    "email"
+  ]
+}
